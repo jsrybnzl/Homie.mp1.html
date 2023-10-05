@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <title>HOMIE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="carousel.css">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Logo.png" alt="logo" height="40px" width="80px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/josec/OneDrive/Documents/KodeGo%20Activity/MP1-html/bedroom.html#">Bedroom</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/josec/OneDrive/Documents/KodeGo%20Activity/MP1-html/living.html">Living Room</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/josec/OneDrive/Documents/KodeGo%20Activity/MP1-html/Kitchen.html">Kitchen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/josec/OneDrive/Documents/KodeGo%20Activity/MP1-html/checkout.html" tabindex="-1" aria-disabled="true">Cart</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="Bac.png" alt="first slide"><rect width="100%" height="100%" fill="#777"/></img>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Bedroom Essentials</h1>
+            <p>The Ultimate sleeping experience with
+              Minimalist modern home furniture</p>
+            <p><a class="btn btn-lg btn-primary" href="file:///C:/Users/josec/OneDrive/Documents/KodeGo%20Activity/MP1-html/bedroom.html#">Browse Gallery</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="120%" src="backg2.jpg" alt="second slide"><rect width="100%" height="120%" fill="#777"/></img>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Living Room Essentials</h1>
+            <p>Make your home as comfortable and attractive as possible and then get on with living.</p>
+            <p><a class="btn btn-lg btn-primary" href="file:///C:/Users/josec/OneDrive/Documents/KodeGo%20Activity/MP1-html/living.html">Browse Gallery</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="130%" src="Backg3.jpg" alt="third slide"><rect width="100%" height="100%" fill="#777"/></img>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Kitchen Essentials</h1>
+            <p>Good food and a warm kitchen are what makes a house a home.</p>
+            <p><a class="btn btn-lg btn-primary" href="file:///C:/Users/josec/OneDrive/Documents/KodeGo%20Activity/MP1-html/Kitchen.html">Browse Gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Get the <span class="text-muted">BEST DEALS</span></h2>
+        <br>
+        <br>
+        <p class="lead">At <span class="text-muted">HOMIE</span>, we provide an exclusive selection of products, exemplifying our unwavering dedication to delivering the utmost quality.
+
+          We offer nothing but the best for our customers. Get the Best only from <span class="text-muted">HOMIE</span>! </p>
+      </div>
+      <div class="col-md-5">
+        <img class="d-block w-100" src="FT1.webp" alt="First slide">
+      </div>
+    </div>
+    <div class="album py-5 bg-light">
+    <h1>FEATURED PRODUCTS</h1>
+    <br>
+    <br>
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album1.webp" alt="picture"></img>
+              <div class="card-body">
+                <p class="card-text">Bamboo Starter Sheet Set (3 Piece Set)</p>
+                <h6>PHP 500</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">1,008 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album2.jpg" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Four Points Feather & Down Pillow</p>
+                <h6>PHP 489</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">2,357 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album1.jpg" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Modern Ceramic Base Bedside Table Lamp</p>
+                <h6>PHP 1,799</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">506 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album4.webp" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Escarpment Couch – Pedersen + Lennard</p>
+                <h6>PHP 5,199</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">307 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="Album5.jpg" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Rustic Chandeliers: Large Wagon Wheel Chandelier</p>
+                <h6>PHP 2,599</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">765 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album6.webp" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Caleb center table</p>
+                <h6>PHP 3,499</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">809 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album7.webp" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Kris Kitchen Cabinet Furniture</p>
+                <h6>PHP 13,499</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">104 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album8.jpg" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Air Fryer Oven 24L (KW-3850) </p>
+                <h6>PHP 4,990</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">987 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top zoom" width="100%" height="250" src="album9.png" alt="picture"></img>
+  
+              <div class="card-body">
+                <p class="card-text">Electric Stove</p>
+                <h6>PHP 14,990</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  </div>
+                  <small class="text-muted">257 Sold</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-4 themed-grid-col"><h6>INFORMATION</h6>
+      <br>
+    <p class="text"><a class="text" href="#">About Us</a></p>
+    <p class="text"><a class="text" href="#">Shipping & Returns</a></p>
+    <p class="text"><a class="text" href="#">Contact Us</a></p>
+    <p class="text"><a class="text" href="#">FAQs</a></p>
+    </div>
+    <div class="col-4 themed-grid-col"><h6>FOLLOW US!</h6>
+      <br>
+    <p class="text"><a class="text" href="#">Facebook</a></p>
+    <p class="text"><a class="text" href="#">Instagram</a></p>
+    <p class="text"><a class="text" href="#">Tiktok</a></p>
+    </div>
+    <div class="col-4 themed-grid-col"><h6>ADDRESS</h6>
+    <br>
+    <p>Lake Kaelynmouth, Washington 54412-1699</p>
+    <p>Phone: 857-984-1618</p>
+    <p>Email address: 1234@gmail.com</p>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>Copyright © 2023 HOMIE. All rights reserved.&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
